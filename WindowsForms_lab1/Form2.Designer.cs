@@ -190,6 +190,7 @@ namespace WindowsForms_lab1
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Задача с выбором ответа";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
